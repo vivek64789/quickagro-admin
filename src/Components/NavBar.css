@@ -1,0 +1,157 @@
+.navbar {
+  z-index: 1000;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 4.5rem;
+  background: white;
+  -webkit-box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.05);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 2rem;
+}
+
+.navbar .logo-container {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .logo-container img {
+  width: 3rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+}
+
+.navbar .logo-container p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primaryColor);
+}
+
+.navbar .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .right .icon-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.navbar .right .icon-button #notice-icon {
+  position: relative;
+}
+
+.navbar .right .icon-button .badge {
+  top: -5px;
+  right: -5px;
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 1rem;
+  background: var(--primaryColor);
+}
+
+.navbar .right .icon-button:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.navbar .right .icon-button:active {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.navbar .right .circle-avatar {
+  margin-left: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 10rem;
+  background: var(--primaryColor);
+}
+
+.navbar .right .column {
+  margin-left: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar .right .column p {
+  font-weight: 500;
+}
+
+.navbar .right .column p:nth-child(2) {
+  color: var(--primaryColor);
+  font-size: 0.8rem;
+}
+
+.navbar .notice-panel {
+  position: absolute;
+  width: 400px;
+  min-height: 80px;
+  max-height: 600px;
+  overflow-y: auto;
+  border: 1px solid var(--primaryLight);
+  background: white;
+  top: 4.5rem;
+  right: 0;
+}
+
+.navbar .notice-panel .notice {
+  width: 100%;
+  padding: 1rem;
+}
+
+.navbar .notice-panel .notice p:nth-child(1) {
+  color: var(--primaryColor);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.navbar .notice-panel .notice p:nth-child(2) {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.navbar .notice-panel .notice .row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .notice-panel .notice .row p {
+  font-size: 0.8rem;
+  color: grey;
+}
+/*# sourceMappingURL=Navbar.css.map */

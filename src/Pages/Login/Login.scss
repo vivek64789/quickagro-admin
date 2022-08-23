@@ -1,0 +1,96 @@
+* {
+    transition: 0.2s;
+}
+
+.login-container {
+    width: 100vw;
+    height: 100vh;
+    background: var(--primaryColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .form-container {
+        border-radius: 10px;
+        padding: 2rem;
+        width: 500px;
+        background-color: white;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+
+            img {
+                width: 50px;
+                margin-right: 1rem;
+                border-radius: 10px;
+            }
+            p {
+                color: var(--primaryColor);
+                font-weight: bold;
+                font-size: 1.5rem;
+            }
+        }
+
+        .title {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .input-containers {
+            display: flex;
+            flex-direction: column;
+            input {
+                background: var(--primaryLight);
+                padding: 0.7rem;
+                font-size: 1rem;
+                margin-bottom: 1rem;
+                border-radius: 10px;
+                border-style: solid;
+                border-color: transparent;
+                outline: none;
+                color: var(--primaryColor);
+            }
+            input:focus {
+                border-color: var(--primaryColor);
+            }
+        }
+
+        a {
+            margin-bottom: 2rem;
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: black;
+        }
+
+        a:hover {
+            color: var(--primaryColor);
+        }
+
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: var(--primaryColor);
+            color: white;
+            border-radius: 10px;
+            border: none;
+            padding: 1rem 5rem;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            transform: scale(1.02);
+        }
+
+        button:active {
+            transform: scale(0.98);
+        }
+    }
+}

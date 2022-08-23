@@ -1,0 +1,125 @@
+* {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  background: var(--primaryColor);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-container .form-container {
+  border-radius: 10px;
+  padding: 2rem;
+  width: 500px;
+  background-color: white;
+  -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.login-container .form-container .logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.login-container .form-container .logo-container img {
+  width: 50px;
+  margin-right: 1rem;
+  border-radius: 10px;
+}
+
+.login-container .form-container .logo-container p {
+  color: var(--primaryColor);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.login-container .form-container .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.login-container .form-container .input-containers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login-container .form-container .input-containers input {
+  background: var(--primaryLight);
+  padding: 0.7rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: transparent;
+  outline: none;
+  color: var(--primaryColor);
+}
+
+.login-container .form-container .input-containers input:focus {
+  border-color: var(--primaryColor);
+}
+
+.login-container .form-container a {
+  margin-bottom: 2rem;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: black;
+}
+
+.login-container .form-container a:hover {
+  color: var(--primaryColor);
+}
+
+.login-container .form-container button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: var(--primaryColor);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 1rem 5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-container .form-container button:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.login-container .form-container button:active {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+/*# sourceMappingURL=Login.css.map */

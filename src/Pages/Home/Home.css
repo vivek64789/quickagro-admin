@@ -1,0 +1,75 @@
+* {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+Link {
+  text-decoration: none;
+}
+
+.home-container {
+  position: fixed;
+  overflow: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.home-container .main {
+  overflow: hidden;
+  margin-top: 4.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home-container .main .menu {
+  overflow-y: auto;
+  z-index: 1000;
+  position: fixed;
+  padding: 2rem 0 0 1rem;
+  background: white;
+  width: 17rem;
+  height: calc(100vh - 4.5rem);
+  -webkit-box-shadow: 0.2rem 1rem 1rem rgba(0, 0, 0, 0.05);
+          box-shadow: 0.2rem 1rem 1rem rgba(0, 0, 0, 0.05);
+}
+
+.home-container .main .menu ul {
+  height: 100%;
+  list-style: none;
+}
+
+.home-container .main .menu ul .selected {
+  background: var(--primaryLight);
+  color: var(--primaryColor);
+}
+
+.home-container .main .menu ul li {
+  font-size: 1rem;
+  font-weight: 500;
+  color: black;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  border-radius: 1rem 0 0 1rem;
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.home-container .main .menu ul li:hover {
+  background: var(--primaryLight);
+}
+
+.home-container .main .menu ul li:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+.content {
+  margin-left: 17rem;
+  padding: 2rem;
+}
+/*# sourceMappingURL=Home.css.map */
